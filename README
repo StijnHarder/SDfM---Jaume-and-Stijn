@@ -1,0 +1,38 @@
+# Systems Development for Marketing
+This project aims to create Recomendation Systems usign diverse techniques applied in real life cases such as SVD and Collaborative Systems.
+
+## Important Files
+
+The important files in this project are listed below in chronological order:
+
+1. `import_datasets`: file importation
+2. `joining`: cleaning of the files and creatiopn of the cleaned parquets used in the EDA and Modelling.
+
+### Movielens Dataset
+
+For the Movielens dataset, the important files for the pre-processing part are:
+
+1. `Movielens - Stratified sample`: creation of the stratified sample, significant for the modelling part since we are not going to be able to use the entire dataset.
+2. `EDA Movielens - Full file`: [Description of the file]
+3. `EDA Movielens - Stratified sample`: [Description of the file]
+
+### Netflix Dataset
+
+For the Netflix dataset, the important file for the pre-processing part is:
+
+1. `EDA Netflix`: creation of the stratified sample, significant for the modelling part since we are not going to be able to use the entire dataset and EDA for the Netflix dataset.
+
+## Models
+
+The important files related to the models are:
+
+### SVD (option A)
+
+- `SVD modelling`
+
+### Item KNN (option D)
+
+For the Item KNN model, the important files are:
+
+1. `Movielens - Item-based models - V2 - with Genres - optimized`
+2. `Netflix - Item-based models - V2 - with Genres - optimized`
